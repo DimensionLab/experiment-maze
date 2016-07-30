@@ -10,14 +10,14 @@
  */
 
 import React from 'react';
-import Scene from 'components/Scene';
+import SceneVR from 'components/SceneVR';
 
 export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
   render() {
     return (
       <div>
-        <Scene />
+        <SceneVR />
       </div>
     );
   }

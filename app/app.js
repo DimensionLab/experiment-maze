@@ -28,6 +28,25 @@ import { translationMessages } from './i18n';
 // Import the CSS reset, which HtmlWebpackPlugin transfers to the build folder
 import 'sanitize.css/sanitize.css';
 
+// Aframe
+// import AFRAME from 'aframe';
+// AFRAME.registerComponent('firebase-broadcasting', {
+//   schema: {
+//     id: { default: '' },
+//     components: { default: ['position', 'rotation'] },
+//     componentsOnce: { default: [], type: 'array' },
+//   },
+
+//   init() {
+//     const data = this.data;
+//     const el = this.el;
+//     const system = el.sceneEl.systems.firebase;
+//     if (data.components.length) {
+//       system.registerBroadcast(el);
+//     }
+//   },
+// });
+
 // Create redux store with history
 // this uses the singleton browserHistory provided by react-router
 // Optionally, this could be changed to leverage a created history
